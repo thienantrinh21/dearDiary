@@ -1,0 +1,24 @@
+{{#each errors}}
+<div class="alert alert-danger">{{text}}</div>
+{{else}}
+{{/each}}
+
+
+<div class="card card-body">
+    <h3>Diary Entries</h3>
+    <form action="/ideas" methods="post">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="ideas">Entry</label>
+            <textarea class "form-control" name="ideas">
+
+            </textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Finish Entry</button>
+    </form>
+</div>
+
+{{!-- Creates a page where you can create new diary entries --}}

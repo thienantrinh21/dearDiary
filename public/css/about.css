@@ -1,0 +1,33 @@
+#socialMediaLinks li {
+    display: inline;
+    margin: 10px;
+    padding: 0%;
+}
+
+#linked a {
+    font-size: 3em;
+    color: #4875b4;
+}
+
+#facebook a {
+    font-size: 3em;
+    color: #3b5998;
+}
+
+#instagram a {
+    font-size: 3em;
+    color: rgb(78, 67, 60);
+}
+
+#button1 a {
+    background-color: skyblue;
+}
+
+#button2 a {
+    color: skyblue;
+}
+
+#socialTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
